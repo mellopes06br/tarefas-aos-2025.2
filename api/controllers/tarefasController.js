@@ -1,4 +1,4 @@
-import * as TarefaModel from "../../models/tarefaModel.js";
+import * as TarefaModel from "../models/tarefaModel.js";
 
 export function listarTarefas(req, res) {
   res.json(TarefaModel.getAllTarefas());
