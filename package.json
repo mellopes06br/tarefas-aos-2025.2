@@ -1,0 +1,17 @@
+{
+  "name": "tarefas-aos-2025.2",
+  "version": "1.0.0",
+  "description": "API RESTful para gerenciar tarefas",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node api/app.js"
+  },
+  "author": "Mel",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/node": "^7.28.0",
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
+  }
+}
